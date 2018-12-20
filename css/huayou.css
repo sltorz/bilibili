@@ -1,0 +1,172 @@
+*{margin: 0;  padding: 0}
+body{
+ font-family: "Microsoft YaHei", "Microsoft Sans Serif", "Microsoft SanSerf", "\5FAE\8F6F\96C5\9ED1";
+}
+
+
+.fl{float: left}
+.fr{float: right}
+.bili-icon{
+    display: inline-block;
+    background-image: url("../images/icons.png")
+}
+.huayou_top{
+    position: relative;
+    width: 100%;
+    height: 56px;
+    background-color: rgba(36,33,46,0.48) !important;
+    box-shadow: 0 2px 6px 0 rgba(36,33,46,0.06);
+    z-index: 1000;
+}
+.huayouct{
+    position: absolute;
+    padding-left:460px;
+    padding-top:240px;
+}
+.huayou_top .top_nav a{
+    line-height: 56px;
+    font-size: 14px;
+}
+.huayou_top .top_nav a span{
+
+}
+.top_navall{
+    position: absolute;
+    padding-left: 130px;
+}
+.top_nav{
+    float: left;
+    margin-right:37px;
+}
+.huayou_hidden{
+    position: absolute;
+    width: 152px;
+    border-radius: 0 0 8px 8px;
+    background-color: white;
+    top: 56px;
+    left: 275px;
+    display: none;
+}
+.huayou_hidden ul{
+    padding-left: 10px;
+}
+.huayou_hidden ul li{
+    list-style: none;
+}
+.huayou_hidden ul li a{
+    color: #646C7A;
+    font-size: 14px;
+}
+.sheying_hidden{
+    position: absolute;
+    width: 130px;
+    border-radius: 0 0 8px 8px;
+    background-color: white;
+    top: 56px;
+    left: 342px;
+    display: none;
+}
+.sheying_hidden ul{
+    padding-left: 10px;
+}
+.sheying_hidden ul li{
+    line-height:10px;
+    list-style: none;
+}
+.sheying_hidden ul li a{
+    color: #646C7A;
+    font-size: 14px;
+}
+.huayoumin{
+    position: absolute;
+    margin-top: 703px;
+}
+.huayoubottom{
+    position: absolute;
+    margin-top: 1113px;
+}
+.huayou_search{
+    position: absolute;
+    margin-top:12px;
+    margin-left: 125px;
+    width: 250px;
+    height:32px;
+    border-radius: 20px;
+    background-color: rgba(40,38,60,0.8);
+}
+.huayou_search input{
+    position: absolute;
+    width:192px;
+    height:32px;
+    border: none;
+    margin-left:15px;
+    outline: none;
+    background-color: rgba(40,38,60,0.8);
+    color:#828188;
+}
+.search_submit{
+    position: absolute;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+    height: 32px;
+    background: url(../images/icons.png) -786px -721px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+.huayoudl{
+    margin-left: 410px;
+}
+.huayoudl span{
+    display: block;
+    line-height: 56px;
+    font-size: 14px;
+}
+.huayoufb{
+    position: absolute;
+    width:80px;
+    height: 60px;
+    background-color:#fb7299;
+    border-radius: 0 0 5px 5px;
+    top: 0px;
+    margin-left:550px;
+}
+.huayoufb:hover{
+    cursor: pointer;
+}
+.huayoufb a{
+   line-height: 60px;
+    padding-left:30%;
+    color: white;
+}
+.btn-wrapper{
+    color: #fff;
+    background-color: rgba(36,33,46,0.32);
+    transform-origin: center center 0px;
+    position: relative;
+    margin-left: -36px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 56px;
+    cursor: pointer;
+}
+.btn-wrapper .huayoubtn1{
+    width: 183.52px;
+    height:74.81px;
+    border: 1px solid rgba(255,255,255,0.4);
+    transform: matrix3d(1, 0, 0, 0.001, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: all 0.2s ease;
+    margin-right: 42px;
+    background-color: rgba(36,33,46,0.32);
+}
+.btn-wrapper .huayoubtn2{
+    width: 183.52px;
+    height:74.81px;
+    border: 1px solid rgba(255,255,255,0.4);
+    transform: matrix3d(1, 0, 0, -0.001, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: all 0.2s ease;
+    margin-left: 42px;
+    background-color: rgba(36,33,46,0.32);
+}

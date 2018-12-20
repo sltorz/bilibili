@@ -1,0 +1,160 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+    text-decoration: none;
+
+}
+.top{
+    width: 100%;
+    height: 42px;
+    position: absolute;
+    background-color: yellow;
+}
+.t-box1{
+    width: 100%;
+    height: 770px;
+    top:42px;
+    background-color: white;
+}
+.t-topbanner{
+    position: absolute;
+    background-color: #00a0d8;
+    width: 100%;
+    height: 86px;
+    top: 42px;;
+    text-align: center;
+    /*vertical-align: middle;*/
+}
+.t-titleline{
+    position: absolute;
+    width:980px;
+    height: 28px;
+    top:130px;
+    margin: 0 auto;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 28px;
+    text-align: center;
+    left: 220px;
+}
+    .t-title{
+        /*position: absolute;*/
+        height:56px;
+        line-height: 56px;
+        /*padding:0 20px;*/
+        background: white;
+        text-align: center;
+         }
+
+.zhuce{
+    position: absolute;
+    width:980px;
+    height: 411px;
+    left: 220px;
+    top: 220px;
+    /*background-color: green;*/
+    /*text-align: center;*/
+    padding-left: 270px;
+}
+.zhuce>input{
+    width: 420px;
+    height:40px;
+    background-color: rgb(250, 255, 189);
+    background-image: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+/*
+#yanzhen{
+    background:url(../images/rl_top.35edfde.png) no-repeat right center;
+    width:200px;
+    height:30px;
+}
+*/
+#btn0{
+    width: 130px;
+    height: 40px;
+    position: absolute;
+    right: 290px;
+    top: 330px;
+    padding: 0 4px;
+    background-color: #00a0d8;
+    cursor: pointer;
+}
+#btn1{
+    background-color:  #d9d9d9;
+}
+#t-denglu{
+    position: absolute;
+   width: 120px;
+    height: 12px;
+    font-size: 12px;
+    margin-left: 280px;
+}
+/*
+.foot{
+    width: 100%;
+    height: 322px;
+    position: absolute;
+    background-color: red;
+    margin-bottom:10px;
+}*/
+.strengthLv{
+    width: 30px;
+    height: 5px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 7px;
+    margin-right: 10px;
+    float: left;
+}
+
+.strengthLv0 {
+    height: 16px;
+    width: 150px;
+    border: 1px solid #ccc;
+    padding: 2px;
+    float: left;
+}
+
+.strengthLv1 {
+    background: red;
+    height: 16px;
+    width: 60px;
+    border: 1px solid #ccc;
+    padding: 2px;
+    float: left;
+}
+
+.strengthLv2 {
+    background: orange;
+    height: 16px;
+    width: 80px;
+    border: 1px solid #ccc;
+    padding: 2px;
+    float: left;
+}
+
+.strengthLv3 {
+    background: green;
+    height: 16px;
+    width: 120px;
+    border: 1px solid #ccc;
+    padding: 2px;
+    float: left;
+}
+
+.strengthLv4 {
+    background: black;
+    height: 16px;
+    width: 150px;
+    border: 1px solid #ccc;
+    padding: 2px;
+    float: left;
+}
+.TYbottom {
+    position: relative;
+    top: 2px;
+    margin-bottom: 10px;
+    background-color: #f6f9fa;
+}

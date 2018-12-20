@@ -1,0 +1,390 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>哔哩哔哩音乐</title>
+    <script src="../js/common.js"></script>
+    <script src="../js/jquery-1.8.2.js"></script>
+    <script src="../js/yp.js"></script>
+    <link rel="stylesheet" href="../css/commoncs.css">
+    <link rel="stylesheet" href="../font/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/audio.css">
+    <link rel="shortcut icon" href="//static.hdslb.com/images/favicon.ico">
+</head>
+
+<body>
+    <div id="w_box">
+    <div class="w_nav_mask w">
+        <div class="w_navall">
+            <div class="w_nav fl">
+                <ul>
+                    <li class="fl">
+                        <i class="bili-icon"></i>
+                        <a href="主页.html" title="主站" class="t">主站</a>
+                    </li>
+                    <li class="fl"><a href="画友.html" target="_blank" title="画友" class="t">画友</a></li>
+                    <li class="fl"><a href="音频.html" target="_blank" title="来探索bilibili音乐的世界吧~" class="t">音频</a></li>
+                    <li class="fl"><a href="游戏中心.html" target="_blank" title="游戏中心" class="t">游戏中心</a></li>
+                    <li class="fl"><a href="直播页面.html" target="_blank" title="直播" class="t">直播</a></li>
+                    <li class="fl"><a href="会员购页面.html" target="_blank" title="会员购" class="t">会员购</a></li>
+                    <li class="fl"><a href="" target="_blank" title="BML" class="t">BML</a></li>
+                    <li class="fl">
+                        <span class="fa fa-tablet" style="font-size: 18px;top:10px"></span>
+                        <a href="下载页面.html" target="_blank" title="下载APP" class="t">下载APP</a></li>
+                </ul>
+            </div>
+            <div class="w_nav fr">
+                <div class="w_tougao fr"><a href="//member.bilibili.com/v/video/submit.html" target="_blank"
+                                            class="u-link" style="color: white">投 稿</a>
+                </div>
+                <div class="w_lis fr">
+                    <ul>
+                        <li class="fr">
+                            <div class="w_lishi"><a href="" style="font-size: 13px">历史</a></div>
+                        </li>
+                        <li class="fr">
+                            <div class="w_dl"><a href="登陆.html"><img src="../images/akari.jpg" alt=""
+                                                              style="width: 40px;height: 40px"></a></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w_search fr">
+                    <input type="text" value="痴鸡小分队">
+                    <div class="w_btn fr">
+                        <button class="w_submit"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="banner">
+        <div id="banner_bg"></div>
+        <div id="banner_info"></div>
+        <ul>
+            <li class="on">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+        <div id="banner_list">
+            <a href="#" target="_blank"><img src="../images/lb1.jpg" title="直击你灵魂的空灵歌声" alt="直击你灵魂的空灵歌声！！" width="1040"
+                                             height="305"></a>
+            <a href="#" target="_blank"><img src="../images/lb2.jpg" title="那些歌名奇怪但好听的歌" alt="那些歌名奇怪但好听的歌" width="1040"
+                                             height="305"></a>
+            <a href="#" target="_blank"><img src="../images/lb3.jpg" title="这歌单有毒！！" alt="这歌单有毒！！" width="1040"
+                                             height="305"></a>
+            <a href="#" target="_blank"><img src="../images/lb4.jpg" title="贡献BGM可以获得收益啦" alt="贡献BGM可以获得收益啦" width="1040"
+                                             height="305"></a>
+        </div>
+    </div>
+        <div class="w_gedan">
+            <div class="w_gedannav fl">
+                <div class="fl">
+                    <p class="fl" style="display: block">歌单推荐</p>
+                    <input class="fr" type="button" value="换一批"
+                           style="width: 76px;height: 24px;display: block;margin-left: 870px;">
+                </div>
+            </div>
+            <div class="w_geimg">
+                <ul>
+                    <li class="fl">
+                        <div class="img_shadow"></div>
+                        <div class="w_img" index="0">
+                            <img  src="../images/gedan/gd1.jpg" alt="" style="width:166px;height: 166px">
+                            <p><a href="" class="w_imgtitle" style="font-size: 12px">每日新曲推荐（每日11:00更新）</a></p>
+                            <span class="fa fa-headphones" style="line-height: 35px">134.2万</span>
+                            <div class="w_imgmask"><div class="w_imgmaskicon"><i class="fa fa-play-circle-o"></i></div>
+                        </div>
+                    </li>
+                    <li class="fl">
+                        <div class="img_shadow"></div>
+                        <div class="w_img" index="1"><img src="../images/gedan/gd2.jpg" alt="" style="width:166px;height: 166px">
+                            <p><a href="" class="w_imgtitle" style="font-size: 12px">直击你灵魂的空灵嗓音！！</a></p>
+                            <span class="fa fa-headphones" style="line-height: 35px">134.2万</span>
+                            <div class="w_imgmask"><div class="w_imgmaskicon"><i class="fa fa-play-circle-o"></i></div>
+                        </div>
+                    </li>
+                    <li class="fl">
+                        <div class="img_shadow"></div>
+                        <div class="w_img" index="2"><img src="../images/gedan/gd3.jpg" alt="" style="width:166px;height: 166px">
+                            <p><a href="" class="w_imgtitle" style="font-size: 12px">【r u ok?】跟着雷军一起摇！</a></p>
+                            <span class="fa fa-headphones" style="line-height: 35px">134.2万</span>
+                            <div class="w_imgmask"><div class="w_imgmaskicon"><i class="fa fa-play-circle-o"></i></div>
+                        </div>
+                    </li>
+                    <li class="fl">
+                        <div class="img_shadow"></div>
+                        <div class="w_img" index="3"><img src="../images/gedan/gd4.jpg" alt="" style="width:166px;height: 166px">
+                            <p><a href="" class="w_imgtitle" style="font-size: 12px">【血小板】没有我哨魔吹不来的曲子</a></p>
+                            <span class="fa fa-headphones" style="line-height: 35px">134.2万</span>
+                            <div class="w_imgmask"><div class="w_imgmaskicon"><i class="fa fa-play-circle-o"></i></div>
+                        </div>
+                    </li>
+                    <li class="fl">
+                        <div class="img_shadow"></div>
+                        <div class="w_img" index="4"><img  src="../images/gedan/gd5.jpg" alt="" style="width:166px;height: 166px">
+                            <p><a href="" class="w_imgtitle" style="font-size: 12px">【欧美翻唱】叫醒耳朵系列</a></p>
+                            <span class="fa fa-headphones" style="line-height: 35px">134.2万</span>
+                            <div class="w_imgmask"><div class="w_imgmaskicon"><i class="fa fa-play-circle-o"></i></div>
+                        </div>
+                    </li>
+                    <li class="fl">
+                        <div class="img_shadow"></div>
+                        <div class="w_img" index="5" ><img  src="../images/gedan/gd6.jpg" alt="" style="width:166px;height: 166px">
+                            <p><a href="" class="w_imgtitle" style="font-size: 12px">抖腿V曲 | 怎么写作业也这么带感</a></p>
+                            <span class="fa fa-headphones" style="line-height: 35px">134.2万</span>
+                            <div class="w_imgmask"><div class="w_imgmaskicon"><i class="fa fa-play-circle-o"></i></div>
+                        </div>
+                    </li>
+                    <li class="fl">
+                        <div class="img_shadow"></div>
+                        <div class="w_img" index="6"><img src="../images/gedan/gd7.jpg" alt="" style="width:166px;height: 166px">
+                            <p><a href="" class="w_imgtitle" style="font-size: 12px">今天也要有完美的主题曲~</a></p>
+                            <span class="fa fa-headphones" style="line-height: 35px">134.2万</span>
+                            <div class="w_imgmask"><div class="w_imgmaskicon"><i class="fa fa-play-circle-o"></i></div>
+                        </div>
+                    </li>
+                    <li class="fl">
+                        <div class="img_shadow"></div>
+                        <div class="w_img" index="7"><img src="../images/gedan/gd8.jpg" alt="" style="width:166px;height: 166px">
+                            <p><a href="" class="w_imgtitle" style="font-size: 12px">小甜歌 | 把我的心意融化在蜜糖里</a></p>
+                            <span class="fa fa-headphones" style="line-height: 35px">134.2万</span>
+                            <div class="w_imgmask"><div class="w_imgmaskicon"><i class="fa fa-play-circle-o"></i></div>
+                        </div>
+                    </li>
+                    <li class="fl">
+                        <div class="img_shadow"></div>
+                        <div class="w_img" index="8"><img src="../images/gedan/gd9.jpg" alt="" style="width:166px;height: 166px">
+                            <p><a href="" class="w_imgtitle" style="font-size: 12px">愉快卖萌中！艾瑞巴蒂一起来</a></p>
+                            <span class="fa fa-headphones" style="line-height: 35px">134.2万</span>
+                            <div class="w_imgmask"><div class="w_imgmaskicon"><i class="fa fa-play-circle-o"></i></div>
+                        </div>
+                    </li>
+                    <li class="fl">
+                        <div class="img_shadow"></div>
+                        <div class="w_img" index="9"><img src="../images/gedan/gd10.jpg" alt="" style="width:166px;height: 166px">
+                            <p><a href="" class="w_imgtitle" style="font-size: 12px;color: black">用粤语翻唱日语歌竟然这么好听！</a></p>
+                            <a href=""><span class="fa fa-headphones" style="line-height: 35px">134.2万</span></a>
+                            <div class="w_imgmask"><div class="w_imgmaskicon"><i class="fa fa-play-circle-o"></i></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="remenbd w"style="overflow: hidden">
+                <h1 style="font-size: 24px">热门榜单</h1>
+                <div class="w_xgb" >
+                         <div class="wbg_img">
+                         <div class="wbg_imgbg"><img src="../images/bd/rmbd1.jpg" alt="" style="width:140px;height: 140px;border-radius: 4px;display: block;"</div>
+                         <div class="bg_title"><a href="">每日新曲推荐（每日11:00更新)</a></div>
+                         <div class="w_bfbtn"><a href=""><img src="../images/bd/btn.png" alt=""></a>
+                         </div>
+                        </div>
+                        <div class="gelist"style="border: 1px solid #E5E9EF;border-top: hidden">
+                            <ul>
+                            <li><a href=""><span>1</span>&nbsp;【刀剑神域Alicization】ADA...<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>2</span>&nbsp;ごはんを食べよ<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>3</span>&nbsp;旧日时光 沪语版<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>4</span>&nbsp;aLIEz<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>5</span>&nbsp;【橘子】情霜（cover杨紫...<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>6</span>&nbsp;lime light<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>7</span>&nbsp;【工作细胞ED翻唱】CheerS<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>8</span>&nbsp;【KISHA】Tides（feat.CAR...<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>9</span>&nbsp;【古风原创】临安【十七里】...<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>10</span>&nbsp;白金ディスコ（白金迪斯科)...<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                        </ul>
+                        </div>
+                        <div class="showmore">
+                            <a href=""><span>查看更多<i class="fa fa-angle-double-right"></i></span></a>
+                        </div>
+                    </div>
+                <div class="w_rgb"><div class="w_xgb" >
+                    <div class="wbg_img">
+                        <div class="wbg_imgbg"><img src="../images/bd/rmbd2.jpg" alt="" style="width:140px;height: 140px;border-radius: 4px;display: block;"</div>
+                        <div class="bg_title"><a href="">热歌榜推荐（每日11:00更新)</a></div>
+                        <div class="w_bfbtn"><a href=""><img src="../images/bd/btn.png" alt=""></a></div>
+                    </div>
+                    <div class="gelist"style="border: 1px solid #E5E9EF;border-top: hidden">
+                        <ul>
+                            <li><a href=""><span>1</span>&nbsp;【刀剑神域Alicization】ADA...<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>2</span>&nbsp;ごはんを食べよ<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>3</span>&nbsp;旧日时光 沪语版<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>4</span>&nbsp;aLIEz<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>5</span>&nbsp;【橘子】情霜（cover杨紫...<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>6</span>&nbsp;lime light<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>7</span>&nbsp;【工作细胞ED翻唱】CheerS<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>8</span>&nbsp;【KISHA】Tides（feat.CAR...<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>9</span>&nbsp;【古风原创】临安【十七里】...<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>10</span>&nbsp;白金ディスコ（白金迪斯科)...<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="showmore">
+                        <a href=""><span>查看更多<i class="fa fa-angle-double-right"></i></span></a>
+                    </div>
+                </div></div>
+                <div class="w_ycb"><div class="w_xgb" >
+                    <div class="wbg_img">
+                        <div class="wbg_imgbg"><img src="../images/bd/rmbd3.jpg" alt="" style="width:140px;height: 140px;border-radius: 4px;display: block;"</div>
+                        <div class="bg_title"><a href="">原创版推荐（每日11:00更新)</a></div>
+                        <div class="w_bfbtn"><a href=""><img src="../images/bd/btn.png" alt=""></a></div>
+                    </div>
+                    <div class="gelist"style="border: 1px solid #E5E9EF;border-top: hidden">
+                        <ul>
+                            <li><a href=""><span>1</span>&nbsp;【刀剑神域Alicization】ADA...<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>2</span>&nbsp;ごはんを食べよ<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>3</span>&nbsp;旧日时光 沪语版<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>4</span>&nbsp;aLIEz<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>5</span>&nbsp;【橘子】情霜（cover杨紫...<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>6</span>&nbsp;lime light<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>7</span>&nbsp;【工作细胞ED翻唱】CheerS<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>8</span>&nbsp;【KISHA】Tides（feat.CAR...<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>9</span>&nbsp;【古风原创】临安【十七里】...<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                            <li><a href=""><span>10</span>&nbsp;白金ディスコ（白金迪斯科)...<i class="fa fa-play-circle"></i><span style="position: absolute;right: 5px">04:26</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="showmore">
+                        <a href=""><span>查看更多<i class="fa fa-angle-double-right"></i></span></a>
+                    </div>
+                </div></div>
+        </div>
+    </div>
+    </div>
+    <div class="qbbd w">
+        <div class="qbbd_top"><h1 style="font-size: 24px">全部榜单</h1>
+        </div>
+        <ul>
+            <li>
+                <div class="qbbd_img" index="0"><img src="../images/bd/qbbd1.jpg" alt="">
+                    <div class="qbbd_mask"><div class="mask_icon"><i class="fa fa-play-circle-o"></i></div></div>
+                    <div class="qbbd_title"><a href="" class="titlea">中文人声三日榜</a></div>
+                </div>
+            </li>
+            <li>
+                <div class="qbbd_img" index="1"><img src="../images/bd/qbbd2.jpg" alt="">
+                    <div class="qbbd_mask"><div class="mask_icon"><i class="fa fa-play-circle-o"></i></div></div>
+                    <div class="qbbd_title"><a href="" class="titlea">日文人声三日榜</a></div>
+                </div>
+            </li>
+            <li>
+                <div class="qbbd_img" index="2"><img src="../images/bd/qbbd3.jpg" alt="">
+                    <div class="qbbd_mask"><div class="mask_icon"><i class="fa fa-play-circle-o"></i></div></div>
+                    <div class="qbbd_title"><a href="" class="titlea">古文人声三日榜</a></div>
+                </div>
+            </li>
+            <li>
+                <div class="qbbd_img" index="3"><img src="../images/bd/qbbd4.jpg" alt="">
+                    <div class="qbbd_mask"><div class="mask_icon"><i class="fa fa-play-circle-o"></i></div></div>
+                    <div class="qbbd_title"><a href="" class="titlea">英文人声三日榜</a></div>
+                </div>
+            </li>
+            <li>
+                <div class="qbbd_img" index="4">
+                    <img src="../images/bd/qbbd5.jpg" alt="">
+                    <div class="qbbd_mask"><div class="mask_icon"><i class="fa fa-play-circle-o"></i></div></div>
+                    <div class="qbbd_title"><a href="" class="titlea">VOCALOID三日榜</a></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="wdyy w">
+        <div class="wdyy_top"><h1 style="font-size: 24px">我的音乐</h1>
+            <div class="wdyy_dl">
+                <span class="dlbtn"><a href=""><img src="../images/wdyybtn.png" alt=""></a><img src="../images/yysj.png" alt=""></span>
+            </div>
+    </div>
+        </div>
+    <div class="yyrtj">
+        <div class="yyrtj_top">
+            <span><h1 style="font-size: 24px;float: left">音乐人推荐</h1><img src="../images/hyhbtn.png" alt="" style="float: right;"></span>
+        </div>
+        <div class="qhliebiao">
+
+                    <div class="qhliebiaoi fl">
+                    <div class="td1 fl"><img src="../images/yytj/yytj1.jpg" alt="" style="width: 96px;height: 96px;border-radius: 50px"></div>
+                    <div class="td2 fl">
+                                  <p><a href="">进击的冰糖</a></p>
+                                  <p><a href="" style="color: #32b0da">会动画的歌姬</a></p>
+                                  <p><input type="button" value="试听" style="width: 98px;height: 28px"></p></div>
+                    </div>
+
+                    <div class="qhliebiaoi fl">
+                        <div class="td1 fl"><img src="../images/yytj/yytj2.jpg" alt="" style="width: 96px;height: 96px;border-radius: 50px"></div>
+                        <div class="td2 fl">
+                            <p><a href="">小Paganini</a></p>
+                            <p><a href="" style="color: #32b0da">小提琴奏见</a></p>
+                            <p><input type="button" value="试听" style="width: 98px;height: 28px"></p></div>
+                    </div>
+
+                    <div class="qhliebiaoi fl">
+                        <div class="td1 fl"><img src="../images/yytj/yytj3.jpg" alt="" style="width: 96px;height: 96px;border-radius: 50px"></div>
+                        <div class="td2 fl">
+                            <p><a href="">铁头羊丶</a></p>
+                            <p><a href="" style="color: #32b0da">鬼畜大司马</a></p>
+                            <p><input type="button" value="试听" style="width: 98px;height: 28px"></p></div>
+                    </div>
+
+
+        </div>
+    </div>
+    <div class="waudio-box">
+        <div class="waudio-container">
+        <div class="waudio-cover"><img src="../images/audio.jpg" alt=""style="border-radius: 35px"></div>
+        <div class="waudio-view">
+            <h3 class="waudio-title">每日推荐</h3>
+            <div class="waudio-body">
+                <div class="waudio-backs">
+                    <div class="waudio-this-time">00:00</div>
+                    <div class="waudio-count-time">00:00</div>
+                    <div class="waudio-setbacks">
+                        <i class="waudio-this-setbacks">
+                            <span class="waudio-backs-btn"></span>
+                        </i>
+							<span class="waudio-cache-setbacks">
+							</span>
+                    </div>
+                </div>
+            </div>
+            <div class="waudio-btn">
+                <div class="waudio-select">
+                    <div class="waudio-prev"></div>
+                    <div class="waudio-play"></div>
+                    <div class="waudio-next"></div>
+                    <div class="waudio-menu"></div>
+                    <div class="waudio-volume"></div>
+                </div>
+                <div class="waudio-set-volume">
+                    <div class="wvolume-box">
+                        <i><span></span></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    $(".w_geimg .w_img").mouseenter(function(){
+    var index=$(this) .attr("index");
+    $($(".w_img .w_imgmask")[ index]) .css("display","block")
+        $($(".w_imgtitle")[ index]).css("color","#00A1D6")
+
+})
+$(".w_geimg .w_img").mouseleave(function(){
+    var index=$(this) .attr("index");
+    $($(".w_img .w_imgmask")[ index]).css("display","none")
+    $($(".w_imgtitle")[ index]).css("color","#222222")
+})
+
+
+
+$(".qbbd .qbbd_img").mouseenter(function(){
+    var index =$(this).attr("index");
+    $($(".qbbd .qbbd_mask")[ index]).css("display","block")
+    $($(".qbbd .qbbd_title .titlea")[ index]).css("color","#00A1D6")
+})
+$(".qbbd .qbbd_img").mouseleave(function(){
+    var index =$(this).attr("index");
+    $($(".qbbd .qbbd_mask")[ index]) .css("display","none")
+    $($(".qbbd .qbbd_title .titlea")[ index]).css("color","#222222")
+})
+</script>
+</html>
